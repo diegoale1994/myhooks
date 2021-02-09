@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { CounterApp } from './components/01-usesState/CounterApp';
 import { CounterWithCustomHook } from './components/01-usesState/CounterWithCustomHook';
+import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook';
+import { SimpleForm } from './components/02-useEffect/SimpleForm';
 //import { HookApp } from './HookApp';
 
 ReactDOM.render(
-    <CounterWithCustomHook />,
+  <FormWithCustomHook />,
   document.getElementById('root')
 );
 
