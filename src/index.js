@@ -13,10 +13,11 @@ import { MemoHook } from './components/06-memos/MemoHook';
 import { Memorize } from './components/06-memos/Memorize';
 import { Padre } from './components/07-tarea/Padre';
 import { TodoApp } from './components/08-useReducer/TodoApp';
+import { MainApp } from './components/09-useContext/MainApp';
 //import { HookApp } from './HookApp';
 
 ReactDOM.render(
-  <TodoApp />,
+  <MainApp />,
   document.getElementById('root')
 );
 
